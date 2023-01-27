@@ -1,0 +1,46 @@
+body{
+    background-color: lightcoral;
+}
+
+#container {
+    background-color: rebeccapurple;
+    border: 5px solid white;
+    height: 450px;
+    width: 800px;
+    margin: auto;
+    text-align: center; 
+}
+
+#btn {
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#output {
+    margin: 25px auto;
+    font-size: 26px;
+    color: white;
+}
+
+
+i:hover {
+    color: lightcoral;
+    background-color: white;
+}
+
+i {
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-style: 16px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background-color: lightcoral;
+    transition: all 0.3s ease;
+}
